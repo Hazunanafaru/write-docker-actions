@@ -13,3 +13,7 @@ jobs:
       - uses: actions/checkout@v1
       - name: hello-action
         uses: ./.github/actions/hello-world
+        with:
+          firstGreeting: "Busni"
+          secondGreeting: "Nopal"
+          thirdGreeting: "Judi"
